@@ -1,4 +1,5 @@
-````markdown
+
+
 <h1 align="center">🚀 n8n on AWS EC2 with Docker</h1>
 
 <p align="center">
@@ -57,7 +58,7 @@ chmod +x install-n8n.sh
 
 🔗 Open in browser:
 
-👉 **http\://<EC2-Public-IP>:5678**
+👉 **http://YOUR_PUBLIC_IP:5678**
 
 🎉 You now have **n8n running inside Docker** on AWS EC2.
 
