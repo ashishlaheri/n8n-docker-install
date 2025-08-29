@@ -3,6 +3,7 @@
 This guide will help you install **Docker**, **Docker Compose**, and run **n8n** on your AWS EC2 instance step by step.
 
 ---
+STEP: 1
 
 ## 🖥️ 1. Update Your System
 ```bash
@@ -22,11 +23,23 @@ sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker $USER
 newgrp docker
-git clone https://github.com/ashishlaheri/n8n-docker-install.git
-cd n8n-docker-install
+```
+STEP: 2
+▶️ 8. Clone This Repository And run this script
+```bash
 git clone https://github.com/ashishlaheri/n8n-docker-install.git
 cd n8n-docker-install
 chmod +x install-n8n.sh
 ./install-n8n.sh
+```
+STEP: 3
+🌍 10. Access n8n
+
 Open your browser and go to:
 http://<EC2-Public-IP>:5678
+
+✅ You now have n8n running in Docker on your EC2 instance! 🎉
+
+Would you like me to also **embed the environment variables (like `N8N_SECURE_COOKIE=false`)** into this README so users know how to customize their setup?
+
+
