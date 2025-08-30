@@ -93,7 +93,7 @@ flowchart TD
   If this project helped you, please ⭐ star the repo & share! <br>
   <b>Happy Automating with n8n 🚀</b>
 </p>
-```
+
 
 ### ✨ What’s improved
 
